@@ -1,0 +1,249 @@
+/* Specifications */
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+	font-size: 15px;
+	color: #304041;
+	letter-spacing: 0.05em;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	font-weight: 800;
+}
+
+p {
+	margin: 0;
+}
+
+
+.container {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.container_full-height {
+	height: 100%;
+	display: flex;
+	align-items: center
+}
+
+a {
+	text-decoration: none;
+}
+
+.section-title {
+    font-weight: 800;
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.btn {
+    display: block;
+    margin: 0 auto;
+    border-radius: 119px;
+    padding: 18px 0;
+    font-weight: 800;   
+    text-align: center;
+    font-size: 16px;
+}
+
+
+
+/* Header */
+
+.header {
+    background:  linear-gradient(180deg, rgba(255, 255, 255, 0) 1.39%, rgba(255, 126, 54, 0.24) 44.44%) , url('../img/Rectangle\ 1.png') no-repeat center top / cover;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 90px 0 82px;
+}
+
+.offer__wish {
+    color : #000;
+    background: #fff;
+    text-transform: uppercase;
+    width: 296px;
+    margin: 200px auto 0;
+    border-radius: 78px;
+    padding: 8px 17px;
+    font-weight: 800;
+}
+
+.offer__title {
+    font-weight: 800;
+    font-size: 60px;
+    letter-spacing: 0.145em;
+    text-transform: uppercase;  
+    margin-top: 24px;
+}
+
+.offer__text {
+    font-weight: 500;
+    font-size: 20px;
+    margin: 24px 0;
+
+}
+
+.offer__btn {
+    color: #fff;
+    background:#FF7E36;
+    transition: background 0.5s ease;
+    width: 247px;
+}
+
+.offer__btn:hover {
+    background: #FF5B00;
+    transition: background 0.5s ease;
+}
+
+
+
+.arrow-down {
+    background: url('../img/arrow-down.svg');
+    width: 18px;
+	height: 27px;
+	display: block;
+	margin: 216px auto 0px;
+	opacity: 0.5;
+	transition: opacity 0.5s ease;
+}
+
+.arrow-down:hover {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+/* Routes*/
+
+
+
+.history {
+    display: flex;
+    justify-content: space-between;
+    background: #FFF6F1;
+    margin-top: 100px;
+    margin-bottom: 108px;
+}
+
+.history__info {
+    padding: 112px 73px ;
+}
+
+.history__img {
+    filter: drop-shadow(0px 25px 70px rgba(4, 43, 55, 0.28));
+    border-radius: 0px 5px 5px 0px;
+}
+
+.history__number {
+    text-transform: uppercase;
+    color: #789AA0;
+}
+.history__title {
+    font-weight: 800;
+    font-size: 24px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.history__text {
+    margin-top: 40px;
+    line-height: 152%;
+}
+
+.history__text_bottom {
+    margin-top: 20px;
+    margin-bottom: 90px; /*тут использовал модификатор вместо :not,можно ли так делать?*/
+}
+
+.history__next {
+    background: url('../img/arrow-next.svg');
+    width: 68px;
+    height: 17px;
+    display: block;
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+}
+
+.history__next:hover {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+
+.btn-ghost {
+    width: 332px;
+    border: 1px solid #FF7E36;
+    color: #FF7E36;
+    transition: background 0.5s ease, color 0.5s ease;
+}
+
+
+.btn-ghost:hover {
+    color: #fff;
+    background: #FF7E36;
+    transition: background 0.5s ease, color 0.5s ease;
+}
+
+.routes {
+    padding-top: 147px ;
+}
+
+/* Online-guide */
+
+.online-guide {
+    padding-top: 220px;
+}
+.opportunities {
+	background: url('../img/photo-amst.png') no-repeat right top / 50%;
+	height: 626px;
+    margin-top: 93px;
+}
+.opportunities__list {
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+.opportunities__item {
+    width: 407px;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.opportunities__item:not(:last-child) {
+    margin-bottom: 79px;
+}
+
+.opportunities__item:before {
+	content:'';
+	display: block;
+	width: 64px;
+	height: 7px;
+	background: #FF7E36;
+    border-radius: 23px;
+    position: relative;
+    bottom: 15px;
+}
+
+/* Footer */
+
+.footer {
+    padding-bottom: 165px;
+    padding-top: 140px;
+}
+
+.rights {
+    color: #5C7677;
+    font-size: 14px;
+}
+
+.rights__text {
+    margin-right: 60px;
+}
