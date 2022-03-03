@@ -23,13 +23,13 @@
 <body>
     <header class="header">
         <div class="container">
-            <a class="logo" href="#">
+            <a href="#" class="logo">
                 <img src="img/logo.svg" alt="Reviewer">
             </a>
             <div class="offer">
-                <p class="offer__wish">
+                <span class="offer__wish">
                     Город мечты - АМСТЕРДАМ
-                </p>
+                </span>
                 <h1 class="offer__title">
                     Твой гид онлайн
                 </h1>
@@ -39,8 +39,8 @@
                 <a href="" class="offer__btn btn">
                     Узнать больше
                 </a>
-                <a class="arrow-down" href="#"></a>
             </div>
+            <a class="arrow-down" href="#"></a>
         </div>
     </header>
     <section class="routes">
@@ -56,12 +56,14 @@
                     <h3 class="history__title">
                         Исторический центр
                     </h3>
-                    <p class="history__text">
-                        Амстердам – столица Нидерландов, известная сложной сетью каналов, узкими домами с остроконечными крышами и богатым художественным наследием, в том числе XVII века, ставшего золотым в истории этой страны. 
-                    </p>
-                    <p class="history__text history__text_bottom">
-                        Особую роль играли предприятия машиностроения и металлообработки, используя недалеко расположенный угольный бассейн и металлургические предприятия города Кладно.
-                    </p>
+                    <div class="history-wrapper">
+                        <p class="history-wrapper__text">
+                            Амстердам – столица Нидерландов, известная сложной сетью каналов, узкими домами с остроконечными крышами и богатым художественным наследием, в том числе XVII века, ставшего золотым в истории этой страны. 
+                        </p>
+                        <p class="history-wrapper__text">
+                            Особую роль играли предприятия машиностроения и металлообработки, используя недалеко расположенный угольный бассейн и металлургические предприятия города Кладно.
+                        </p>
+                    </div>
                     <a href="#" class="history__next"></a>
                 </div>
                 <img class="history__img"src="img/photo-amst-1.png" alt="">
@@ -70,21 +72,19 @@
         </div>
     </section>
     <section class="online-guide">
-        <div class="container">
 			<h2 class="section-title">
 				Возможности онлайн-гида
 			</h2>
-		</div>
 		<div class="opportunities">
-			<div class="container container_full-height">
-				<ul class="opportunities__list">
-					<li class="opportunities__item">
+			<div class="container">
+				<ul class="opportunities-list">
+					<li class="opportunities-list__item">
 						Работает на всех платформах: браузеры, iOS, Androind и Windows
 					</li>
-					<li class="opportunities__item">
+					<li class="opportunities-list__item">
 						Сотни самых популярных городов, доступных на расстоянии клика
 					</li>
-					<li class="opportunities__item">
+					<li class="opportunities-list__item">
 						Активные, легкие, пугающие и вдохновляющие - маршруты на любой вкус
 					</li>
 				</ul>
